@@ -1,0 +1,17 @@
+.Speedometer > .bar {
+  background-color: grey;
+  height: 15px;
+  width: 500px;
+}
+
+.Speedometer > .bar > .active {
+  background-color: green;
+  height: 15px;
+  display: inline-block;
+}
+
+.progress-ring__circle {
+  transition: 0.1s stroke-dashoffset;
+  transform: rotate(135deg);
+  transform-origin: 50% 50%;
+}
